@@ -10400,21 +10400,31 @@ h3::after {
 }
 
 .btn {
-  background-color: #E60C0C;
+  background-color: #E60C0C; 
   height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 144px;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
   color: #FFFFFF;
+  -webkit-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
   transition: opacity 0.2s linear;
 }
 .btn:hover {
   color: #fff;
   opacity: 0.8;
+  -webkit-opacity: 0.8;
+  -o-opacity: 0.8;
 }
 
 .header {
