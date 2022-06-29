@@ -10150,9 +10150,9 @@ a {
   color: inherit;
   transition: opacity 0.2s linear;
 }
-a:hover {
+/* a:hover {
   opacity: 0.85;
-}
+} */
 
 button {
   transition: opacity 0.2s linear;
@@ -10416,15 +10416,16 @@ h3::after {
   font-size: 18px;
   line-height: 24px;
   color: #FFFFFF;
-  -webkit-transition: opacity 0.2s linear;
-  -o-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
+  -webkit-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 .btn:hover {
   color: #fff;
-  opacity: 0.8;
+  background-color: #c10404; 
+  /* opacity: 0.8;
   -webkit-opacity: 0.8;
-  -o-opacity: 0.8;
+  -o-opacity: 0.8; */
 }
 
 .header {
